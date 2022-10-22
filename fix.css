@@ -1,0 +1,10 @@
+#root .live-tv .left-section {
+    height: auto;
+    overflow: auto;
+    width: auto;
+    float: none;
+}
+
+#root .live-tv .channels-container {
+    display: none;
+}

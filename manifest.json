@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Responsive Foxtel",
+    "description": "Make Foxtel GO video player full-width of window.",
+    "version": "1",
+
+    "content_scripts": [
+        {
+            "matches": ["https://watch.foxtel.com.au/*"],
+            "css": ["fix.css"],
+            "js": ["fix.js"]
+        }
+    ]
+}
